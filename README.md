@@ -26,3 +26,14 @@ then
 else
   echo 'this is not possible'
 fi
+
+  * To read a Direcotory we can use the command 
+```
+  KRSI='/tmp';
+  if [ -d $KRSI ]
+  then
+  echo 'Hello world file exists'
+  else
+  echo 'Hello world file doesnot exist'
+  fi
+```
