@@ -13,5 +13,14 @@ if [ -e 'helloworld.sh' ]
 then
   echo 'yes the file helloworld.sh exists'
 else
-  echo 'No such file exist'
+  echo 'No hello world.sh is displayed'
+fi
+
+
+KRSI='/tmp';
+if [ -d $KRSI ]
+then
+  echo 'Hello world file exists'
+else
+  echo 'Hello world file doesnot exist'
 fi

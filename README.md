@@ -18,3 +18,11 @@ Invalid:
 ```  
 
 # TESTS
+  * Conditions for the tests have to be enclosed in the Square braces in the bash
+  * if,then,else and fi statements are used for the if statments in bash scripts 
+if [ 2 lt -3]
+then
+  echo '2 is less than 3'
+else
+  echo 'this is not possible'
+fi
