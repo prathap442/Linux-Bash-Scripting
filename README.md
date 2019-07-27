@@ -37,3 +37,35 @@ fi
   echo 'Hello world file doesnot exist'
   fi
 ```
+
+  * there is huge difference between "" and '' i.e., single and double quotes in the bash scripts
+
+  ```
+  COLORS=( red green blue );
+  for color in red green blue
+  do
+    echo "$color"
+  done
+  ```
+  OUTPUT:
+  ```
+  red
+  green
+  blue
+  ```
+
+  ```
+  COLORS=( red green blue );
+  for color in red green blue
+  do
+    echo '$color'
+  done
+  ```
+
+  OUTPUT:
+
+  ```
+   $color
+   $color
+   $color
+  ```
