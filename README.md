@@ -38,7 +38,7 @@ fi
   fi
 ```
 
-  * there is huge difference between "" and '' i.e., single and double quotes in the bash scripts
+  * there is huge difference between single and double quotes in the bash scripts
 
   ```
   COLORS=( red green blue );
@@ -69,3 +69,8 @@ fi
    $color
    $color
   ```
+
+# A decent command to keep in mind when we rename the files would be
+```
+  mv sample1.png 204-08-908-sample1.png
+```
