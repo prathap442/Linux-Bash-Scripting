@@ -74,3 +74,20 @@ fi
 ```
   mv sample1.png 204-08-908-sample1.png
 ```
+
+# Now let us look In Functions
+```
+  function bash_scripts(){
+    #the function code goes here 
+    echo "$1" # this is way of using the positional parameters
+  }
+  bash_scripts JASON
+```
+# Why Functions?
+  * functions will basically be used to keep the code DRY
+# What kind of Variables exists
+  * There exists mainly two types of the variables namely GLOBAL and local
+  * The global variables don't need the explicit mentioning
+  * but to the local variables we use a key workd called as local
+  * Functions when called once the variables are sufficient for the sake of the Utilising any where once they are intialized
+# Now let us look into the
