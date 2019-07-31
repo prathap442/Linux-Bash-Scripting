@@ -1,0 +1,1 @@
+ This is the text file named as c.txt
