@@ -32,3 +32,5 @@ COMMENT
 COMMENT
 
 ls ??.txt
+
+echo "Let us use the wild cards that give the character class"
